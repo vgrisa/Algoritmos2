@@ -454,7 +454,11 @@ void functionMenu()
                     "alocar as caixas no local certo usando estrategia e logica.\n\n"
                     "Esse jogo foi desenvolvido pelos alunos do curso de Ciencias da computacao\n"
                     "da universidade do vale do Itajai(UNIVALI), para materia de algoritmos e programacao 2\n"
-                    "lecianada pelo professor Thiago Felski.\n"
+                    "lecianada pelo professor Thiago Felski.\n\n"
+                    "Gabriel Turman\n"
+                    "Marco Akerman\n"
+                    "Vinicius Grisa\n"
+                    "Marco/2023"
                  << endl;
             system("pause");
             system("cls");
@@ -462,7 +466,7 @@ void functionMenu()
         case 3:
             system("cls");
             cout << "Obrigado por jogar Sokoban Mater Ultra 3000" << endl;
-            menu = true;
         }
+        if(escolhaMenu == 3) break;
     } while (true);
 }
